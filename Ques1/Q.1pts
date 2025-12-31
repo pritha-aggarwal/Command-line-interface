@@ -1,0 +1,37 @@
+Ques. You have just joined IxD Systems as a junior systems engineer. On your first day, the Linux administrator asks you to perform a basic environment verification on the lab machine using your own login account.
+
+1. User Identity Verification 
+Command: id
+Output: uid=1000(pritha) gid=1000(pritha) groups=1000(pritha),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),100(users),107(netdev)
+Explanation: 'id' is the command used for user identity verification. This command returns UID, GID and all groups associated with user.
+
+2. Workspace Validation
+Command: pwd && ls -l
+Output: /home/pritha
+total 8
+-rw-rwxrwx 2 pritha pritha    6 Dec  8 04:50 hh.log
+-rw-r--r-- 1 pritha pritha    0 Dec  8 05:18 nishchhal
+-rw-r--r-- 1 pritha pritha    0 Dec  8 05:17 pankaj
+-rw-r--r-- 1 pritha pritha    0 Dec  8 05:18 pritha
+Explanation: 'pwd' returns the present working directory i.e. the directly being used currently and 'ls -l' gives the list of the files in it in the long format (permissions, group, owner, date, size, time and name of file).
+
+3. Environment Confirmation File
+Command: echo "Linux user environment verified" > user_info.txt
+Output: pritha@LAPTOP-BEFRMO2R:~$ ls
+hh.log  nishchhal  pankaj  pritha  prithu  testf1  tres  user_info.txt
+Explanation: 'echo' writes the given text in the file and '>' creates or overwrites (if already existing) the file.
+
+4. File Integrity Check
+Command: wc -m user_info.txt
+Output: 32 user_info.txt
+Explanation: wc counts the words, lines  and characters. -m specifies that characters are to be counted and not lines or bytes. user_info.txt is the target file to be checked.
+
+5. Learning the Tools
+command: man mkdir
+Output:  pritha@LAPTOP-BEFRMO2R:~$ mkdir -p project/2025/data
+pritha@LAPTOP-BEFRMO2R:~$ ls
+hh.log  nishchhal  pankaj  pritha  prithu  project  testf1  tres  user_info.txt                                          User Commands                                            MKDIR(1)
+Explanation: 'man mkdir' opens the manual for all the options of mkdir command. -p is one of the options, it allows us to create parent directories without having to specify. eg- 'mkdir -p project/2025/data' it will create any intermediate folders if missing.
+
+
+
