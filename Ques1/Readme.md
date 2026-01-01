@@ -45,7 +45,7 @@ Explanation: **'wc'** counts the words, lines  and characters. **-m** specifies 
 **5** Learning the Tools. Identify one useful option and briefly explain what it does.  
 **Command**: 
 ```bash
-mkdir -p
+mkdir -p project/2025/data 
 ``` 
 **Output**:  
 ![img5](images1/q1img5.png) 
