@@ -79,19 +79,19 @@ mv ~/project_documents/plan_copy.txt ~/project_documents/archive/
 Explanation: **'mv'** moves files or directories. **'~/project_documents/plan_copy.txt'** is the current location of the file. **'~/project_documents/archive/'** is the location where the file has to be moved to. 
 
 **9** Recursive Listing. List all files and subdirectories inside project_documents recursively so that the complete directory structure is visible.  
-Command:
+**Command**:
 ```bash
 ls -R ~/project_documents
 ```
-Output:  
+**Output**:  
 ![img9](images2/q2img9.png)  
 Explanation: **'ls'** lists the directory contents. **'-R'** gives the command to list all subdirectories and the files within them. **'~/project_documents'** is the target directory.
 
 **10** Path Verification. Display the absolute path of the plan_copy.txt file after it has been moved to the archive directory.  
-Command:
+**Command**:
 ```bash
 realpath ~/project_documents/archive/plan_copy.txt
 ```
-Output:  
+**Output**:  
 ![img10](images2/q2img10.png)  
 Explanation: **'realpath'** is the primary Linux utility used to resolve and display full path of a file or directory. **'~/project_documents/archive/plan_copy.txt'** is the specific file path to be resolved, using the ~ shortcut for my home directory.
