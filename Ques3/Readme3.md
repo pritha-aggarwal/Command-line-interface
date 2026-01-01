@@ -65,7 +65,7 @@ Explanation: **'ls'** command is used to list all the files and directories. **'
 **7**  Disk Usage Check. Display the disk usage of your home directory in a human-readable format.  
 **Command**:
 ```bash
-du -s-h ~
+du -sh ~
 ```
 **Output**:  
 ![img6](images3/q3img6.png)  
@@ -74,7 +74,7 @@ Explanation: **'du'** command is used to check the disk usage of files and direc
 **8** File Size Overview. Display the size of each file present in your home directory in a human-readable format.  
 **Command**:
 ```bash
-ls -l-h ~
+ls -lh ~
 ```
 **Output**:  
 ![img7](images3/q3img7.png)  
