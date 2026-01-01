@@ -12,7 +12,7 @@ You have just joined IxD Systems as a junior systems engineer. On your first day
 id  
 ```
 **Output**:
-
+\images1\Screenshot 2025-12-31 213631.png
 Explanation: **'id'** is the command used for user identity verification. This command returns **UID, GID and all groups** associated with user.
 
 **2** Workspace Validation. Display the current working directory and list all files and directories in that location using long format listing command.  
